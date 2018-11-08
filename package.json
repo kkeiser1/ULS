@@ -1,0 +1,28 @@
+{
+  "name": "ultimatelaundrysolutions",
+  "license": "UNLICENSED",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git"
+  },
+  "dependencies": {
+    "@types/reactstrap": "^6.4.2",
+    "@types/styled-components": "^4.0.2",
+    "bootstrap": "^4.1.3",
+    "gatsby": "^2.0.29",
+    "gatsby-plugin-typescript": "^2.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "reactstrap": "^6.5.0"
+  },
+  "devDependencies": {
+    "gatsby-cli": "^2.4.3",
+    "styled-components": "^4.0.2",
+    "typescript": "^3.1.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
