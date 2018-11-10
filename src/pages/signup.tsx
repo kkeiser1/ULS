@@ -8,7 +8,7 @@ interface ISignUpPageProps {
 export const SignUpPage: React.SFC<ISignUpPageProps> = () => {
     return (
       <Form>
-        <Row form>
+        <Row>
           <Col md={6}>
             <FormGroup>
               <Label for="exampleEmail">Email</Label>
@@ -30,7 +30,7 @@ export const SignUpPage: React.SFC<ISignUpPageProps> = () => {
           <Label for="exampleAddress2">Address 2</Label>
           <Input type="text" name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor"/>
         </FormGroup>
-        <Row form>
+        <Row>
           <Col md={6}>
             <FormGroup>
               <Label for="exampleCity">City</Label>
