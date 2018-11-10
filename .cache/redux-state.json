@@ -283,7 +283,7 @@
       "pluginFilepath": "C:/Repos/UltimateLaundrySolutions",
       "packageJson": {
         "name": "ultimatelaundrysolutions",
-        "version": "0.0.0",
+        "version": "0.0.1",
         "license": "UNLICENSED",
         "dependencies": [
           {
@@ -451,12 +451,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-08T01:02:36.636Z",
+      "buildTime": "2018-11-08T22:21:24.942Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "433cba6776e91604abfbd6cab625ce86",
+        "contentDigest": "0872311e29012ef6cc903cc144e627b1",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -504,7 +504,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f88923b146cec8c8c0c4b89bef876094"
+    "PLUGINS_HASH": "b0d7c7e185de64b530d3efe6bc9b17aa"
   },
   "componentDataDependencies": {
     "nodes": {},

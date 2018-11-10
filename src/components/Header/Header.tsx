@@ -5,7 +5,6 @@ import {
   NavbarToggler,
   NavItem,
   UncontrolledDropdown,
-  DropdownToggle,
   DropdownMenu,
 } from 'reactstrap';
 
@@ -41,9 +40,9 @@ export class Header extends React.Component {
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
             <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
+              <MyNav.Dropdown nav caret>
                 Login
-              </DropdownToggle>
+              </MyNav.Dropdown>
               <DropdownMenu right>
                 <MyForm />
               </DropdownMenu>

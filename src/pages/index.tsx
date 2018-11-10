@@ -5,6 +5,8 @@ import { Jumbotron } from "reactstrap";
 import { Header } from "../components/Header";
 import { Footer } from '../components/Footer';
 import { MyButton } from '../components/MyButton';
+import { Center } from '../components/Center';
+import { Container } from '../components/Container';
 
 interface WelcomeProps {
   name: string;
@@ -14,11 +16,14 @@ const Welcome: React.SFC<WelcomeProps> = () => {
     <div>
       <Header />
       <Jumbotron>
-        <h2>Hello, Laundry!</h2>
-				<p>Ready to sign up?</p>
-				<MyButton>Get Started</MyButton>
+				<Center>
+					<h2>Hello, Laundry!</h2>
+					<p>Ready to sign up?</p>
+					<MyButton>Get Started</MyButton>
+				</Center>
       </Jumbotron>
       <Jumbotron>
+				<Container>
         <h2>Who</h2>
 				<p>
 					Mesmerizing birds step on your keyboard while you're gaming and then 
@@ -26,8 +31,10 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 					vlkjasntvkjn (sits on keyboard) so hunt by meowing loudly at 5am next 
 					to human slave food dispenser.
 				</p>
+				</Container>
       </Jumbotron>
       <Jumbotron>
+			<Container>
         <h2>What</h2>
 				<p>
 					Favor packaging over toy cough hairball on conveniently placed pants 
@@ -36,16 +43,20 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 					box fish i must find my red catnip fishy fish or stand in doorway, unwilling 
 					to chose whether to stay in or go out i am the best.
 				</p>
+				</Container>
       </Jumbotron>
       <Jumbotron>
+			<Container>
         <h2>Where</h2>
 				<p>
 					Lies down loves cheeseburgers or wake up human for food at 4am cat mojo 
 					but i can haz, and crash against wall but walk away like nothing happened. 
 					Ignore the squirrels, you'll never catch them anyway. 
 				</p>
+				</Container>
       </Jumbotron>
       <Jumbotron>
+			<Container>
         <h2>How</h2>
 				<p>
 					With tail in the air meoooow so dream about hunting birds show belly, yet 
@@ -53,37 +64,42 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 					your human's bed and fall asleep again and who's the baby. Chew on cable ooh, 
 					are those your $250 dollar sandals?
 				</p>
+				</Container>
       </Jumbotron>
       <Jumbotron>
-        <h2>Wow this is so cool!</h2>
-				<p>Please take my money!</p>
-				<MyButton>Get Started</MyButton>
+				<Center>
+					<h2>Wow this is so cool!</h2>
+					<p>Please take my money!</p>
+					<MyButton>Get Started</MyButton>
+				</Center>
       </Jumbotron>
 
       <Jumbotron>
-        <h2>FAQ</h2>
-				<ul>
-					<li>question</li>
+			<Container>
+					<h2>FAQ</h2>
 					<ul>
-						<li>answer</li>
+						<li>Long, extensive, possibly necessary question?</li>
+						<ul>
+							<li>Witty and amusing answer</li>
+						</ul>
+						<li>Long, extensive, possibly necessary question?</li>
+						<ul>
+							<li>Witty and amusing answer</li>
+						</ul>
+						<li>Long, extensive, possibly necessary question?</li>
+						<ul>
+							<li>Witty and amusing answer</li>
+						</ul>
+						<li>Long, extensive, possibly necessary question?</li>
+						<ul>
+							<li>Witty and amusing answer</li>
+						</ul>
+						<li>Long, extensive, possibly necessary question?</li>
+						<ul>
+							<li>Witty and amusing answer</li>
+						</ul>
 					</ul>
-					<li>question</li>
-					<ul>
-						<li>answer</li>
-					</ul>
-					<li>question</li>
-					<ul>
-						<li>answer</li>
-					</ul>
-					<li>question</li>
-					<ul>
-						<li>answer</li>
-					</ul>
-					<li>question</li>
-					<ul>
-						<li>answer</li>
-					</ul>
-				</ul>
+					</Container>
       </Jumbotron>
 			<Footer />
     </div>
