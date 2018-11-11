@@ -451,12 +451,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-08T22:21:24.942Z",
+      "buildTime": "2018-11-11T00:02:59.434Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0872311e29012ef6cc903cc144e627b1",
+        "contentDigest": "ac6cb97a6fd874a941d1eb510a1574bc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

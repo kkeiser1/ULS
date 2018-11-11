@@ -6,4 +6,7 @@ import * as Colors from '../colors';
 export const MyButton = styled(Button)`
 	background-color: ${Colors.maroon};
 	border: none;
+	:hover {
+		background-color: ${Colors.darkMaroon};
+	}
 `;

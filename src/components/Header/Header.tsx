@@ -10,6 +10,7 @@ import {
 
 import * as MyNav from '../MyNav';
 import { MyForm } from '../MyForm';
+import { MyButton } from '../MyButton';
 
 export class Header extends React.Component {
   constructor(props) {
@@ -29,13 +30,14 @@ export class Header extends React.Component {
   render() {
     return (
       <MyNav.Bar expand="md">
-        <MyNav.Brand href="/">UltimateLaundrySolutions</MyNav.Brand>
+        <MyNav.Brand href="#Top">UltimateLaundrySolutions</MyNav.Brand>
+        <MyButton>Sign Up</MyButton>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <MyNav.Link href="">Components</MyNav.Link>
+              <MyNav.Link href="#How">How It Works</MyNav.Link>
             </NavItem>
             <NavItem>
-              <MyNav.Link href="https://github.com/reactstrap/reactstrap">GitHub</MyNav.Link>
+              <MyNav.Link href="#FAQ">FAQs</MyNav.Link>
             </NavItem>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
