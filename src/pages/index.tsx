@@ -13,7 +13,7 @@ interface WelcomeProps {
 }
 const Welcome: React.SFC<WelcomeProps> = () => {
   return (
-    <div>
+    <div id='Top'>
       <Header />
       <Jumbotron>
 				<Center>
@@ -55,7 +55,7 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 				</p>
 				</Container>
       </Jumbotron>
-      <Jumbotron>
+      <Jumbotron id="How">
 			<Container>
         <h2>How</h2>
 				<p>
@@ -75,7 +75,7 @@ const Welcome: React.SFC<WelcomeProps> = () => {
       </Jumbotron>
 
       <Jumbotron>
-			<Container>
+			<Container id = "FAQ">
 					<h2>FAQ</h2>
 					<ul>
 						<li>Long, extensive, possibly necessary question?</li>
