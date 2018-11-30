@@ -39,17 +39,17 @@ export class Header extends React.Component {
             <NavItem>
               <MyNav.Link href="#FAQ">FAQs</MyNav.Link>
             </NavItem>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={this.state.isOpen} navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <MyNav.Dropdown nav caret>
-                Login
-              </MyNav.Dropdown>
-              <DropdownMenu right>
-                <MyForm />
-              </DropdownMenu>
-            </UncontrolledDropdown>
-        </Collapse>
+            <NavbarToggler onClick={this.toggle} />
+            <Collapse isOpen={this.state.isOpen} navbar>
+                <UncontrolledDropdown nav inNavbar>
+                  <MyNav.Dropdown nav caret>
+                    Login
+                  </MyNav.Dropdown>
+                  <DropdownMenu right>
+                    <MyForm />
+                  </DropdownMenu>
+                </UncontrolledDropdown>
+            </Collapse>
           </Nav>
       </MyNav.Bar>
     );
