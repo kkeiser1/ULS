@@ -5,6 +5,11 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-pages-dash-tsx",
+        "jsonName": "dash-717",
+        "path": "/dash/"
+    },
+    {
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"

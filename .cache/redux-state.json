@@ -451,13 +451,33 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-11T00:02:59.434Z",
+      "buildTime": "2018-12-01T19:15:35.259Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ac6cb97a6fd874a941d1eb510a1574bc",
+        "contentDigest": "d9296ce165f51288603f8ceaeaa9ac13",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /dash/": {
+      "jsonName": "dash-717",
+      "internalComponentName": "ComponentDash",
+      "path": "/dash/",
+      "component": "C:/Repos/UltimateLaundrySolutions/src/pages/dash.tsx",
+      "componentChunkName": "component---src-pages-dash-tsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/dash.tsx",
+      "id": "SitePage /dash/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "71c8e1650a04413af197decb33e1824a",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
@@ -513,7 +533,8 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E"
+    "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dash-717": "216/path---dash-717-78e-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
     "C:/Repos/UltimateLaundrySolutions/.cache/dev-404-page.js": {
@@ -527,6 +548,10 @@
     "C:/Repos/UltimateLaundrySolutions/src/pages/signup.tsx": {
       "query": "",
       "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/signup.tsx"
+    },
+    "C:/Repos/UltimateLaundrySolutions/src/pages/dash.tsx": {
+      "query": "",
+      "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/dash.tsx"
     }
   },
   "staticQueryComponents": {}

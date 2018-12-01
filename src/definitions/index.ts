@@ -1,0 +1,1 @@
+export { IUserProps } from './IUserProps';

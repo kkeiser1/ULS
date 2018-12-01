@@ -8,10 +8,9 @@ import { MyButton } from '../components/MyButton';
 import { Center } from '../components/Center';
 import { Container } from '../components/Container';
 
-interface WelcomeProps {
-  name: string;
+interface IHomePageProps {
 }
-const Welcome: React.SFC<WelcomeProps> = () => {
+const HomePage: React.SFC<IHomePageProps> = () => {
   return (
     <div id='Top'>
       <Header />
@@ -26,14 +25,14 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 				<Container>
         <h2>Laundry is a problem, we are your solution!</h2>
 				<p>
-					Ultimate Laundry Solutions can give you more time for the people & things you enjoy by freeing you from the burden of endless laundry. Laundry pick-up and delivery service at your convenience.
+					Ultimate Laundry Solutions can give you more time for the people &amps; things you enjoy by freeing you from the burden of endless laundry. Laundry pick-up and delivery service at your convenience.
 				</p>
 				<p>
 					Your time is valuable, spend it doing things you enjoy (which probably doesn’t include sorting clothes and flipping loads or hanging out at the laundromat). Go ahead, relax, we got this. Hello free time!!
 				</p>
 				<Center>
 					<p>
-						SIGN UP NOW
+						<MyButton>SIGN UP NOW</MyButton>
 					</p>
 				</Center>
 				</Container>
@@ -50,7 +49,7 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 				</p>
 				<Center>
 					<p>
-						SIGN UP NOW
+						<MyButton>SIGN UP NOW</MyButton>
 					</p>
 				</Center>
 				</Container>
@@ -72,7 +71,7 @@ const Welcome: React.SFC<WelcomeProps> = () => {
 				</p>
 				<Center>
 					<p>
-						SIGN UP NOW
+						<MyButton>SIGN UP NOW</MyButton>
 					</p>
 				</Center>
 				</Container>
@@ -202,4 +201,4 @@ const Welcome: React.SFC<WelcomeProps> = () => {
   );
 };
 
-export default Welcome;
+export default HomePage;
