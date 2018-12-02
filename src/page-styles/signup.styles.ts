@@ -23,4 +23,8 @@ export const FlexItem = styled.div`
 
 export const ActionRow = styled(Row)`
 	min-width: 300px;
+	margin: 0;
+`;
+export const MyRow = styled(Row)`
+	margin: 0;
 `;
