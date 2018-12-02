@@ -1,12 +1,13 @@
 import * as React from "react";
-import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import { Col, Row, Form, FormGroup, Label, Input, FormText } from "reactstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Header } from "../components/Header";
 import { MyButton } from "../components/MyButton";
 import { SelectState, SelectDay, SelectTime } from "../components/SelectMenu";
 import * as Style from "../page-styles/signup.styles";
 
-interface ISignUpPageProps {}
+interface ISignUpPageProps {};
 
 const SignUpPage: React.SFC<ISignUpPageProps> = () => {
   return (
@@ -14,7 +15,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
       <Header />
       <Style.FormContainer>
         <Form>
-          <Row>
+          <Style.MyRow>
             <Col md={6}>
               <FormGroup>
                 <Label>First Name</Label>
@@ -27,9 +28,9 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                 <Input type="text" placeholder="Doe" />
               </FormGroup>
             </Col>
-          </Row>
+          </Style.MyRow>
 
-          <Row>
+          <Style.MyRow>
             <Col>
               <FormGroup>
                 <Label>Username</Label>
@@ -39,8 +40,9 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                 />
               </FormGroup>
             </Col>
-          </Row>
-          <Row>
+          </Style.MyRow>
+          <FormGroup>
+          <Style.MyRow>
             <Col md={6}>
               <FormGroup>
                 <Label for="userPassword">Password</Label>
@@ -65,7 +67,8 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                 <FormText>Passwords must match</FormText>
               </FormGroup>
             </Col>
-          </Row>
+          </Style.MyRow>
+          </FormGroup>
           <FormGroup>
             <Label for="userEmail">Email</Label>
             <Input
@@ -106,7 +109,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             />
           </FormGroup>
 
-          <Row>
+          <Style.MyRow>
             <Col md={6}>
               <FormGroup>
                 <Label for="addressCity">City</Label>
@@ -125,7 +128,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                 <Input type="text" name="zip" id="addressZip" />
               </FormGroup>
             </Col>
-          </Row>
+          </Style.MyRow>
 
           <FormGroup check>
             <Input type="checkbox" name="check" id="billingCheck" />
@@ -154,7 +157,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             />
           </FormGroup>
 
-          <Row>
+          <Style.MyRow>
             <Col md={6}>
               <FormGroup>
                 <Label for="billingCity">City</Label>
@@ -173,7 +176,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                 <Input type="text" name="zip" id="exampleZip" />
               </FormGroup>
             </Col>
-          </Row>
+          </Style.MyRow>
           
           <FormGroup>
           <legend>Service</legend>  
@@ -249,7 +252,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
           </Col>
           </FormGroup>
 
-          <Row>
+          <Style.MyRow>
           <Col>
           <legend>Pickup</legend>
           <FormGroup check>
@@ -284,7 +287,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             </Style.ActionRow>
           </FormGroup>
           </Col>
-          </Row>
+          </Style.MyRow>
 
           <FormGroup>
             <legend>Notes</legend>
