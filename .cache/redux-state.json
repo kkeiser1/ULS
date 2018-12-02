@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "C:/Repos/UltimateLaundrySolutions/.cache/dev-404-page.js",
+      "component": "/Users/tyin/Documents/ULS/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "C:/Repos/UltimateLaundrySolutions/.cache/dev-404-page.js",
+      "componentPath": "/Users/tyin/Documents/ULS/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2f27213d1f893cdb1267d8f7b8e9756f",
+        "contentDigest": "dd668d2e42127d5426ff69dc24d3b404",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a48acba68de28b41b14f11587ef52739",
+        "contentDigest": "2f020fb55a5e34dc6d94a11421236f09",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin load-babel-config": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "dd7b962d64d0ecd4c3f496efd2f45f65",
+        "contentDigest": "2a84960a13ab31d653425f2386919106",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "eb92d5c5fea0583da0a6c32b71342162",
+        "contentDigest": "8402b41a95e814f9d68cda43e87b10b0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7e62e8277fe9d084cc09b19a120a3d10",
+        "contentDigest": "a658bcacedaac95a4a86e2f1aa1cf5ff",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "28c7e29251fae4d36fe62844313ed720",
+        "contentDigest": "3e2cc9e984026de91947fc09269579ec",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-typescript": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby-plugin-typescript",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-typescript",
       "id": "Plugin gatsby-plugin-typescript",
       "name": "gatsby-plugin-typescript",
       "version": "2.0.0",
@@ -211,7 +211,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby-plugin-typescript",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-typescript",
       "packageJson": {
         "name": "gatsby-plugin-typescript",
         "description": "Adds TypeScript support to Gatsby",
@@ -264,23 +264,23 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "7c24eb6d1dc870559517ff12e6b003a5",
+        "contentDigest": "5220b11360522112e73b7854cb9d6388",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions",
+      "resolve": "/Users/tyin/Documents/ULS",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a6c17ee989b5b3ff8e3499bffa22f82a",
+      "version": "7c051730f15d5ca24ca4400938b177ac",
       "pluginOptions": {
         "plugins": []
       },
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions",
+      "pluginFilepath": "/Users/tyin/Documents/ULS",
       "packageJson": {
         "name": "ultimatelaundrysolutions",
         "version": "0.0.1",
@@ -348,19 +348,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cc0b827c38e7aff29773de970b6810a9",
+        "contentDigest": "5e2423fc27a8dd24d62072193cef38de",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "C:/Repos/UltimateLaundrySolutions/src/pages",
+        "path": "/Users/tyin/Documents/ULS/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -368,7 +368,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "C:/Repos/UltimateLaundrySolutions/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -440,7 +440,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ea2654b6cd03a99af40ae5db5d3a2b8f",
+        "contentDigest": "b2af1c70708fc727fb1bf046e311e3fb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -451,12 +451,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-11-11T00:02:59.434Z",
+      "buildTime": "2018-12-02T15:46:30.198Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ac6cb97a6fd874a941d1eb510a1574bc",
+        "contentDigest": "465ee32fa342dcc0d694725b1450d1dc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -465,18 +465,18 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "C:/Repos/UltimateLaundrySolutions/src/pages/index.tsx",
+      "component": "/Users/tyin/Documents/ULS/src/pages/index.tsx",
       "componentChunkName": "component---src-pages-index-tsx",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/index.tsx",
+      "componentPath": "/Users/tyin/Documents/ULS/src/pages/index.tsx",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a8f63541e6c31ac0be95c972dad83ad7",
+        "contentDigest": "b51f403f3bb0147ef68812588018d50e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -485,18 +485,18 @@
       "jsonName": "signup-371",
       "internalComponentName": "ComponentSignup",
       "path": "/signup/",
-      "component": "C:/Repos/UltimateLaundrySolutions/src/pages/signup.tsx",
+      "component": "/Users/tyin/Documents/ULS/src/pages/signup.tsx",
       "componentChunkName": "component---src-pages-signup-tsx",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/signup.tsx",
+      "componentPath": "/Users/tyin/Documents/ULS/src/pages/signup.tsx",
       "id": "SitePage /signup/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a402c10e7b95a700572091d149e9ed12",
+        "contentDigest": "dddc87d4d8688967750082f1c65f62c6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -504,7 +504,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "b0d7c7e185de64b530d3efe6bc9b17aa"
+    "PLUGINS_HASH": "c3f4cb73d96ece72cb6dfb5567a0ac60"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -516,17 +516,17 @@
     "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "C:/Repos/UltimateLaundrySolutions/.cache/dev-404-page.js": {
+    "/Users/tyin/Documents/ULS/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "C:/Repos/UltimateLaundrySolutions/.cache/dev-404-page.js"
+      "componentPath": "/Users/tyin/Documents/ULS/.cache/dev-404-page.js"
     },
-    "C:/Repos/UltimateLaundrySolutions/src/pages/index.tsx": {
+    "/Users/tyin/Documents/ULS/src/pages/index.tsx": {
       "query": "",
-      "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/index.tsx"
+      "componentPath": "/Users/tyin/Documents/ULS/src/pages/index.tsx"
     },
-    "C:/Repos/UltimateLaundrySolutions/src/pages/signup.tsx": {
+    "/Users/tyin/Documents/ULS/src/pages/signup.tsx": {
       "query": "",
-      "componentPath": "C:/Repos/UltimateLaundrySolutions/src/pages/signup.tsx"
+      "componentPath": "/Users/tyin/Documents/ULS/src/pages/signup.tsx"
     }
   },
   "staticQueryComponents": {}
