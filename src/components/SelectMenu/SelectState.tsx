@@ -3,7 +3,7 @@ import { Input } from "reactstrap";
 
 export const SelectState: React.SFC = () => {
 	return (
-<Input type="select" name="state" id="addressState">
+<Input type="select" name="state">
 <option>Alabama - AL</option>
 <option>Alaska - AK</option>
 <option>Arizona - AZ</option>

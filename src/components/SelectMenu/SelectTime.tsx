@@ -3,7 +3,7 @@ import { Input } from "reactstrap";
 
 export const SelectTime: React.SFC = () => {
 	return (
-<Input type="select" name="billingState" id="billingState">
+<Input type="select" name="billingState">
 <option>8am - 10am</option>
 <option>10am - 12pm</option>
 <option>12pm - 2pm</option>

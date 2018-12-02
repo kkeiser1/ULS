@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/tyin/Documents/ULS/.cache/dev-404-page.js",
+      "component": "/Users/tyin/Documents/GitHub/ULS/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "Plugin dev-404-page",
       "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/tyin/Documents/ULS/.cache/dev-404-page.js",
+      "componentPath": "/Users/tyin/Documents/GitHub/ULS/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dd668d2e42127d5426ff69dc24d3b404",
+        "contentDigest": "a6dbaf30ff1fd8775698c4a2f351ae86",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2f020fb55a5e34dc6d94a11421236f09",
+        "contentDigest": "a42aa07fafb355e790c0885c2b5af0a2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin load-babel-config": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "Plugin load-babel-config",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2a84960a13ab31d653425f2386919106",
+        "contentDigest": "85e820fcb47b22edb2cc29d13e50712e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "8402b41a95e814f9d68cda43e87b10b0",
+        "contentDigest": "cf7c06f56c2ca52d6fa3398d190c19f7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a658bcacedaac95a4a86e2f1aa1cf5ff",
+        "contentDigest": "e3f7af8382c08e922e47589002a95f4c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3e2cc9e984026de91947fc09269579ec",
+        "contentDigest": "2742ed2a70533d12d67e2cf3be80f544",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-typescript": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-typescript",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby-plugin-typescript",
       "id": "Plugin gatsby-plugin-typescript",
       "name": "gatsby-plugin-typescript",
       "version": "2.0.0",
@@ -211,7 +211,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-typescript",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby-plugin-typescript",
       "packageJson": {
         "name": "gatsby-plugin-typescript",
         "description": "Adds TypeScript support to Gatsby",
@@ -264,13 +264,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5220b11360522112e73b7854cb9d6388",
+        "contentDigest": "6dfe128f11e882f28346bc8e63806f1b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/tyin/Documents/ULS",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "7c051730f15d5ca24ca4400938b177ac",
@@ -280,7 +280,7 @@
       "nodeAPIs": [],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS",
       "packageJson": {
         "name": "ultimatelaundrysolutions",
         "version": "0.0.1",
@@ -348,19 +348,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5e2423fc27a8dd24d62072193cef38de",
+        "contentDigest": "816e4fa514997f316a0a142a09afb6c6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/tyin/Documents/ULS/src/pages",
+        "path": "/Users/tyin/Documents/GitHub/ULS/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -368,7 +368,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/tyin/Documents/ULS/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/tyin/Documents/GitHub/ULS/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -440,7 +440,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b2af1c70708fc727fb1bf046e311e3fb",
+        "contentDigest": "1a4bd8c28ac2444e2bf17fe87a7f518a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -451,12 +451,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-12-02T15:46:30.198Z",
+      "buildTime": "2018-12-02T21:32:06.423Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "465ee32fa342dcc0d694725b1450d1dc",
+        "contentDigest": "fcb9b9cba035808c43b2cd68c82dca51",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -465,18 +465,18 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/tyin/Documents/ULS/src/pages/index.tsx",
+      "component": "/Users/tyin/Documents/GitHub/ULS/src/pages/index.tsx",
       "componentChunkName": "component---src-pages-index-tsx",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/tyin/Documents/ULS/src/pages/index.tsx",
+      "componentPath": "/Users/tyin/Documents/GitHub/ULS/src/pages/index.tsx",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b51f403f3bb0147ef68812588018d50e",
+        "contentDigest": "446c0f17c24863e29bff28a49fc60308",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -485,18 +485,18 @@
       "jsonName": "signup-371",
       "internalComponentName": "ComponentSignup",
       "path": "/signup/",
-      "component": "/Users/tyin/Documents/ULS/src/pages/signup.tsx",
+      "component": "/Users/tyin/Documents/GitHub/ULS/src/pages/signup.tsx",
       "componentChunkName": "component---src-pages-signup-tsx",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/tyin/Documents/ULS/src/pages/signup.tsx",
+      "componentPath": "/Users/tyin/Documents/GitHub/ULS/src/pages/signup.tsx",
       "id": "SitePage /signup/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dddc87d4d8688967750082f1c65f62c6",
+        "contentDigest": "6d939e4f691c14b2645798a8ef87b1d7",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -516,17 +516,17 @@
     "signup-371": "571/path---signup-371-33e-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/tyin/Documents/ULS/.cache/dev-404-page.js": {
+    "/Users/tyin/Documents/GitHub/ULS/src/pages/index.tsx": {
       "query": "",
-      "componentPath": "/Users/tyin/Documents/ULS/.cache/dev-404-page.js"
+      "componentPath": "/Users/tyin/Documents/GitHub/ULS/src/pages/index.tsx"
     },
-    "/Users/tyin/Documents/ULS/src/pages/index.tsx": {
+    "/Users/tyin/Documents/GitHub/ULS/src/pages/signup.tsx": {
       "query": "",
-      "componentPath": "/Users/tyin/Documents/ULS/src/pages/index.tsx"
+      "componentPath": "/Users/tyin/Documents/GitHub/ULS/src/pages/signup.tsx"
     },
-    "/Users/tyin/Documents/ULS/src/pages/signup.tsx": {
+    "/Users/tyin/Documents/GitHub/ULS/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/tyin/Documents/ULS/src/pages/signup.tsx"
+      "componentPath": "/Users/tyin/Documents/GitHub/ULS/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}

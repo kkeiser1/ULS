@@ -116,7 +116,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             <Col md={4}>
               <FormGroup>
                 <Label for="addressState">State</Label>
-                <SelectState />
+                <SelectState id="addressState"/>
               </FormGroup>
             </Col>
             <Col md={2}>
@@ -164,7 +164,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             <Col md={4}>
               <FormGroup>
                 <Label for="billingState">State</Label>
-                <SelectState />
+                <SelectState id="billingState" />
               </FormGroup>
             </Col>
             <Col md={2}>
@@ -256,12 +256,12 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             <Style.ActionRow>
             <Col>
             <Label>Day</Label>
-              <SelectDay />
+              <SelectDay id="pickUpDay"/>
             </Col>
 
             <Col>
             <Label>Time</Label>
-              <SelectTime />
+              <SelectTime id="pickUpTime"/>
             </Col>
             </Style.ActionRow>
             </FormGroup>
@@ -274,12 +274,12 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             <Style.ActionRow>
             <Col>
             <Label>Day</Label>
-              <SelectDay />
+              <SelectDay id="dropOffDay"/>
             </Col>
 
             <Col>
             <Label>Time</Label>
-              <SelectTime />
+              <SelectTime id="dropOffTime"/>
             </Col>
             </Style.ActionRow>
           </FormGroup>

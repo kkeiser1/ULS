@@ -3,7 +3,7 @@ import { Input } from "reactstrap";
 
 export const SelectDay: React.SFC = () => {
 	return (
-<Input type="select" name="billingState" id="billingState">
+<Input type="select" name="billingState">
 <option>Sunday</option>
 <option>Monday</option>
 <option>Tuesday</option>
