@@ -1,11 +1,6 @@
 import * as React from "react";
-<<<<<<< HEAD
-import { Col, Row, Form, FormGroup, Label, Input, FormText } from "reactstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-=======
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
->>>>>>> adds some pkg, fixes the bugs, ty
 
 import { Header } from "../components/Header";
 import { MyButton } from "../components/MyButton";
