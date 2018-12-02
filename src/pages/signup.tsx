@@ -1,7 +1,9 @@
 import * as React from "react";
-import { Col, Row, Button, Form, FormGroup, Label, Input } from "reactstrap";
+import { Col, Row, Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 
 import { Header } from "../components/Header";
+import { MyButton } from "../components/MyButton";
+import { SelectState, SelectDay, SelectTime } from "../components/SelectMenu";
 import * as Style from "../page-styles/signup.styles";
 
 interface ISignUpPageProps {}
@@ -28,7 +30,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
           </Row>
 
           <Row>
-            <Col md={4}>
+            <Col>
               <FormGroup>
                 <Label>Username</Label>
                 <Input
@@ -37,7 +39,9 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                 />
               </FormGroup>
             </Col>
-            <Col md={4}>
+          </Row>
+          <Row>
+            <Col md={6}>
               <FormGroup>
                 <Label for="userPassword">Password</Label>
                 <Input
@@ -46,17 +50,19 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
                   id="userPassword"
                   placeholder="j1doe2p3!ULS"
                 />
+                <FormText>Must contain at least 8 characters and one uppercase</FormText>
               </FormGroup>
             </Col>
-            <Col md={4}>
+            <Col md={6}>
               <FormGroup>
                 <Label for="userPassword">Confirm Password</Label>
                 <Input
                   type="password"
                   name="password"
                   id="confirmUserPassword"
-                  placeholder="passwords must match"
+                  placeholder="j1doe2p3!ULS"
                 />
+                <FormText>Passwords must match</FormText>
               </FormGroup>
             </Col>
           </Row>
@@ -66,7 +72,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
               type="email"
               name="email"
               id="userEmail"
-              placeholder="with a placeholder"
+              placeholder="johndoe@ULS.com"
             />
           </FormGroup>
 
@@ -79,7 +85,6 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
               placeholder="3131234567"
             />
           </FormGroup>
-
 
           <FormGroup>
             <Label for="exampleAddress">Pick Up and Delivery Address</Label>
@@ -111,7 +116,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             <Col md={4}>
               <FormGroup>
                 <Label for="addressState">State</Label>
-                <Input type="text" name="state" id="addressState" />
+                <SelectState />
               </FormGroup>
             </Col>
             <Col md={2}>
@@ -139,6 +144,16 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             />
           </FormGroup>
 
+          <FormGroup>
+            <Label for="billingAddress2">Billing Address 2</Label>
+            <Input
+              type="text"
+              name="address2"
+              id="billingAddress2"
+              placeholder="Apartment, studio, or floor"
+            />
+          </FormGroup>
+
           <Row>
             <Col md={6}>
               <FormGroup>
@@ -149,7 +164,7 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
             <Col md={4}>
               <FormGroup>
                 <Label for="billingState">State</Label>
-                <Input type="text" name="state" id="billingState" />
+                <SelectState />
               </FormGroup>
             </Col>
             <Col md={2}>
@@ -159,10 +174,6 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
               </FormGroup>
             </Col>
           </Row>
-
-          
-          
-
           
           <FormGroup>
           <legend>Service</legend>  
@@ -182,8 +193,6 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
               </FormGroup>
             </Col>
           </FormGroup>
-          
-
 
           <FormGroup>
           <Label for="exampleText">Bag Size</Label>
@@ -203,9 +212,6 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
           </Col>
           </FormGroup>
           
-
-
-
           <legend>Subscription</legend>
           <FormGroup check>
           <Label for="exampleText">Billed Monthly</Label>
@@ -243,100 +249,21 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
           </Col>
           </FormGroup>
 
-
-          
-
           <Row>
           <Col>
           <legend>Pickup</legend>
           <FormGroup check>
-            <Row>
+            <Style.ActionRow>
             <Col>
             <Label>Day</Label>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Sun
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Mon
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Tue
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Wed
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Thu
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Fri
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Sat
-                </Label>
-              </FormGroup>
+              <SelectDay />
             </Col>
 
             <Col>
             <Label>Time</Label>
-            <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  8am - 10am
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  10am - 12pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  12pm - 2pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  2pm - 4pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  4pm - 6pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  6pm - 8pm
-                </Label>
-              </FormGroup>
+              <SelectTime />
             </Col>
-            </Row>
+            </Style.ActionRow>
             </FormGroup>
           </Col>
 
@@ -344,103 +271,20 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
           <Col>
           <legend>Drop Off</legend>
           <FormGroup check>
-            <Row>
+            <Style.ActionRow>
             <Col>
             <Label>Day</Label>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Sun
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Mon
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Tue
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Wed
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Thu
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Fri
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  Sat
-                </Label>
-              </FormGroup>
+              <SelectDay />
             </Col>
 
             <Col>
             <Label>Time</Label>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  8am - 10am
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  10am - 12pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  12pm - 2pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  2pm - 4pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  4pm - 6pm
-                </Label>
-              </FormGroup>
-              <FormGroup check>
-                <Label check>
-                  <Input type="radio" name="radio8" />{' '}
-                  6pm - 8pm
-                </Label>
-              </FormGroup>
+              <SelectTime />
             </Col>
-            </Row>
+            </Style.ActionRow>
           </FormGroup>
           </Col>
           </Row>
-
-
-
-
-
-
-
 
           <FormGroup>
             <legend>Notes</legend>
@@ -448,29 +292,16 @@ const SignUpPage: React.SFC<ISignUpPageProps> = () => {
               type="textarea"
               name="text"
               id="exampleText"
-              placeholder="Anything we need to know? (Door Code, Unit #, Laundry Location, etc.)"
+              placeholder="Anything we need to know? (Door code, laundry location, etc.)"
             />
           </FormGroup>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           <FormGroup>
           <Label for="exampleText">Terms and Conditions</Label>
 
           </FormGroup>
 
-          <Button>Sign Up</Button>
+          <MyButton>Sign Up!</MyButton>
 
           <FormGroup check>
             <Input type="checkbox" name="check" id="exampleCheck" />

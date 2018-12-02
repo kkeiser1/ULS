@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import { Container } from '../components/Container';
+import { Row } from 'reactstrap';
 
 export const FormContainer = styled(Container)`
 	margin-top: 100px;
@@ -18,4 +19,8 @@ export const FlexContainer = styled.div`
 
 export const FlexItem = styled.div`
 
+`;
+
+export const ActionRow = styled(Row)`
+	min-width: 300px;
 `;
