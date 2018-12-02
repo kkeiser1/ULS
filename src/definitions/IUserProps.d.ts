@@ -7,5 +7,5 @@ export interface IUserProps {
     email: string;
     pickupAddress?: string;
     billingAddress: string;
-
+    phone: number;
 }
